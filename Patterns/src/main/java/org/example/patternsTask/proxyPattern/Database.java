@@ -1,4 +1,4 @@
-package org.example.util.patternsTask.proxyPattern;
+package org.example.patternsTask.proxyPattern;
 
 public interface Database {
     void query(String sql);

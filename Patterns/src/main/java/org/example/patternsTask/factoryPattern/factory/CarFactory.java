@@ -1,6 +1,6 @@
-package org.example.util.patternsTask.factoryPattern.factory;
+package org.example.patternsTask.factoryPattern.factory;
 
-import org.example.util.patternsTask.factoryPattern.Car;
+import org.example.patternsTask.factoryPattern.Car;
 
 public abstract class CarFactory {
     public abstract Car createCar();

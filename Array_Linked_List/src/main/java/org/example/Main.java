@@ -11,22 +11,6 @@ import org.example.util.patternsTask.templateMethodPattern.Tea;
 
 public class Main {
     public static void main(String[] args) {
-        CarFactory sedan = new SedanFactory();
-        CarFactory suv = new SUVFactory();
 
-        sedan.deliverCar();
-        suv.deliverCar();
-
-        Database adminDb = new DatabaseProxy("admin");
-        Database userDb = new DatabaseProxy("user");
-
-        adminDb.query("select * from users");
-        userDb.query("select * from users");
-
-        BeverageTemplate tea = new Tea();
-        BeverageTemplate coffee = new Coffee();
-
-        tea.prepareBeverage();
-        coffee.prepareBeverage();
     }
 }

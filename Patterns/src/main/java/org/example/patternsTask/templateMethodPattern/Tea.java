@@ -1,4 +1,4 @@
-package org.example.util.patternsTask.templateMethodPattern;
+package org.example.patternsTask.templateMethodPattern;
 
 public class Tea extends BeverageTemplate{
     @Override

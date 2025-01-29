@@ -1,4 +1,4 @@
-package org.example.util.patternsTask.factoryPattern;
+package org.example.patternsTask.factoryPattern;
 
 public class SUV implements Car {
     @Override
